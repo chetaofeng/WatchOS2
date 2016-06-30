@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7586011D24CDD700E614B4 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7586001D24CDD700E614B4 /* TableCell.swift */; };
+		CB7586031D24CF1500E614B4 /* Page1InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7586021D24CF1500E614B4 /* Page1InterfaceController.swift */; };
+		CB7586051D24D15C00E614B4 /* Page2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7586041D24D15C00E614B4 /* Page2InterfaceController.swift */; };
+		CB7586081D24F1F000E614B4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7586061D24F1F000E614B4 /* Interface.storyboard */; };
+		CB75860A1D24F27E00E614B4 /* Page4InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7586091D24F27E00E614B4 /* Page4InterfaceController.swift */; };
 		CB81B8721D23A8B30073F876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB81B8711D23A8B30073F876 /* AppDelegate.swift */; };
 		CB81B8741D23A8B30073F876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB81B8731D23A8B30073F876 /* ViewController.swift */; };
 		CB81B8771D23A8B30073F876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB81B8751D23A8B30073F876 /* Main.storyboard */; };
 		CB81B8791D23A8B30073F876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB81B8781D23A8B30073F876 /* Assets.xcassets */; };
 		CB81B87C1D23A8B30073F876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB81B87A1D23A8B30073F876 /* LaunchScreen.storyboard */; };
-		CB81B8891D23A9760073F876 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB81B8871D23A9760073F876 /* Interface.storyboard */; };
 		CB81B88B1D23A9760073F876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB81B88A1D23A9760073F876 /* Assets.xcassets */; };
 		CB81B8921D23A9760073F876 /* WatchOS2ConnTarget Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB81B8911D23A9760073F876 /* WatchOS2ConnTarget Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CB81B8991D23A9760073F876 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB81B8981D23A9760073F876 /* InterfaceController.swift */; };
@@ -20,6 +24,7 @@
 		CB81B89D1D23A9760073F876 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB81B89C1D23A9760073F876 /* NotificationController.swift */; };
 		CB81B89F1D23A9760073F876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB81B89E1D23A9760073F876 /* Assets.xcassets */; };
 		CB81B8A31D23A9760073F876 /* WatchOS2ConnTarget.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CB81B8851D23A9760073F876 /* WatchOS2ConnTarget.app */; };
+		CB81B8AD1D23C5DC0073F876 /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB81B8AC1D23C5DC0073F876 /* SecondInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB7586001D24CDD700E614B4 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		CB7586021D24CF1500E614B4 /* Page1InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1InterfaceController.swift; sourceTree = "<group>"; };
+		CB7586041D24D15C00E614B4 /* Page2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2InterfaceController.swift; sourceTree = "<group>"; };
+		CB7586071D24F1F000E614B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CB7586091D24F27E00E614B4 /* Page4InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page4InterfaceController.swift; sourceTree = "<group>"; };
 		CB81B86E1D23A8B30073F876 /* WatchOSConn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOSConn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB81B8711D23A8B30073F876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB81B8731D23A8B30073F876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +83,6 @@
 		CB81B87B1D23A8B30073F876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB81B87D1D23A8B30073F876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB81B8851D23A9760073F876 /* WatchOS2ConnTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOS2ConnTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB81B8881D23A9760073F876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		CB81B88A1D23A9760073F876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB81B88C1D23A9760073F876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB81B8911D23A9760073F876 /* WatchOS2ConnTarget Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchOS2ConnTarget Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +92,7 @@
 		CB81B89C1D23A9760073F876 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		CB81B89E1D23A9760073F876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB81B8A01D23A9760073F876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB81B8AC1D23C5DC0073F876 /* SecondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +149,7 @@
 		CB81B8861D23A9760073F876 /* WatchOS2ConnTarget */ = {
 			isa = PBXGroup;
 			children = (
-				CB81B8871D23A9760073F876 /* Interface.storyboard */,
+				CB7586061D24F1F000E614B4 /* Interface.storyboard */,
 				CB81B88A1D23A9760073F876 /* Assets.xcassets */,
 				CB81B88C1D23A9760073F876 /* Info.plist */,
 			);
@@ -155,6 +165,11 @@
 				CB81B89E1D23A9760073F876 /* Assets.xcassets */,
 				CB81B8A01D23A9760073F876 /* Info.plist */,
 				CB81B8961D23A9760073F876 /* Supporting Files */,
+				CB81B8AC1D23C5DC0073F876 /* SecondInterfaceController.swift */,
+				CB7586001D24CDD700E614B4 /* TableCell.swift */,
+				CB7586021D24CF1500E614B4 /* Page1InterfaceController.swift */,
+				CB7586041D24D15C00E614B4 /* Page2InterfaceController.swift */,
+				CB7586091D24F27E00E614B4 /* Page4InterfaceController.swift */,
 			);
 			path = "WatchOS2ConnTarget Extension";
 			sourceTree = "<group>";
@@ -282,8 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7586081D24F1F000E614B4 /* Interface.storyboard in Resources */,
 				CB81B88B1D23A9760073F876 /* Assets.xcassets in Resources */,
-				CB81B8891D23A9760073F876 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7586031D24CF1500E614B4 /* Page1InterfaceController.swift in Sources */,
+				CB7586011D24CDD700E614B4 /* TableCell.swift in Sources */,
+				CB7586051D24D15C00E614B4 /* Page2InterfaceController.swift in Sources */,
 				CB81B89D1D23A9760073F876 /* NotificationController.swift in Sources */,
 				CB81B89B1D23A9760073F876 /* ExtensionDelegate.swift in Sources */,
 				CB81B8991D23A9760073F876 /* InterfaceController.swift in Sources */,
+				CB81B8AD1D23C5DC0073F876 /* SecondInterfaceController.swift in Sources */,
+				CB75860A1D24F27E00E614B4 /* Page4InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +353,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CB7586061D24F1F000E614B4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7586071D24F1F000E614B4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		CB81B8751D23A8B30073F876 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,14 +375,6 @@
 				CB81B87B1D23A8B30073F876 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CB81B8871D23A9760073F876 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB81B8881D23A9760073F876 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -546,6 +566,7 @@
 				CB81B8821D23A8B30073F876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB81B8A41D23A9760073F876 /* Build configuration list for PBXNativeTarget "WatchOS2ConnTarget Extension" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +575,7 @@
 				CB81B8A61D23A9760073F876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB81B8A81D23A9760073F876 /* Build configuration list for PBXNativeTarget "WatchOS2ConnTarget" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +584,7 @@
 				CB81B8AA1D23A9760073F876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
